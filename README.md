@@ -1,3 +1,17 @@
-# My Awesome Book
+# Angular 4 Routing
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Github - https://github.com/hs950559/ng4-routing
+
+
+# Resources
+
+Create Cover
+
+https://www.canva.com/design/DACc3Wg0tvc/2WFWvSS7tYvvnjiVpA9U2w/edit?layouts=&layoutQuery=free&utm_source=onboarding
+
+
+
+
+
+
+

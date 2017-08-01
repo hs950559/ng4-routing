@@ -1,0 +1,16 @@
+{
+  "name": "css-flexbox",
+  "version": "1.0.0",
+  "description": "Angular 4 routing in depth, bootstrap 4 as styling framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.gitbook.com/hemantajax/angular4-routing.git"
+  },
+  "keywords": [],
+  "author": "Hemant",
+  "license": "ISC"
+}
