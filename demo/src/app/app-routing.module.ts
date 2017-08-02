@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'posts', loadChildren: 'app/posts/posts.module#PostsModule' },
+  { path: 'github', loadChildren: 'app/github/github.module#GithubModule' },
   {
     path: '',
     redirectTo: '/home',

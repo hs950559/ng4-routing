@@ -1,0 +1,2 @@
+# Getting the route parameter
+
