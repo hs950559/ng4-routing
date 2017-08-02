@@ -15,6 +15,12 @@ export class GithubProfileComponent implements OnInit {
       .subscribe(params => {
         console.log(params.get('username'));
       });
+
+    this.route.queryParamMap
+      .subscribe(query => {
+        console.log(query.get('page'));
+        console.log(query.get('order'));
+      });
   }
 
 }
