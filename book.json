@@ -1,7 +1,7 @@
 {
     "gitbook": "3.2.2",
-    "title": "CSS Flexbox",
-    "description": "CSS Flexbox in depth",
+    "title": "Angular 4 routing",
+    "description": "Angular 4 routing with bootstrap 4",
     "language": "en",
     "plugins": ["addcssjs", "expandable-chapters"],
     "pluginsConfig": {
