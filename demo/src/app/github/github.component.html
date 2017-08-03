@@ -1,10 +1,10 @@
 <h1>Github Users</h1>
 <ul class="navbar-nav mr-auto">
-    <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/', 'hesing']">Route Param</a>
+    <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/github', 'hesing']">Route Param</a>
     </li>
-    <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/', 'hesing']" [queryParams]="[{page: 12, order: 'desc'}]">Query Param</a>
+    <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/github', 'hesing']" [queryParams]="{page: 12, order: 'desc'}">Query Param</a>
     </li>
 </ul>
 <router-outlet></router-outlet>
