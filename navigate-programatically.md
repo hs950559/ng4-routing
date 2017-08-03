@@ -1,9 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+# Programmatic Navigation
+
+```html
+<a class="btn btn-primary" (click)="gotTo()">Go to page 100</a>
+```
+
+```javascript
 import { Router } from '@angular/router';
 @Component({
-  selector: 'app-github',
-  templateUrl: './github.component.html',
-  styleUrls: ['./github.component.scss']
+	...
 })
 export class GithubComponent implements OnInit {
 
@@ -18,3 +22,4 @@ export class GithubComponent implements OnInit {
     });
   }
 }
+```

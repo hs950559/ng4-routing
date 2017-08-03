@@ -7,4 +7,6 @@
         <a class="nav-link" [routerLink]="['/github', 'hesing']" [queryParams]="{page: 12, order: 'desc'}">Query Param</a>
     </li>
 </ul>
+
+<button class="btn btn-warning" (click)="gotTo()">Go to page 100</button>
 <router-outlet></router-outlet>
